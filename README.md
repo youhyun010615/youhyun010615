@@ -16,11 +16,14 @@
 </p>
 
 <p align="center">
-  <a href="mailto:cadry1@nate.com">
-    <img src="https://img.shields.io/badge/Email-cadry1%40nate.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  <a href="mailto:cadry238@gmail.com">
+    <img src="https://img.shields.io/badge/Email-cadry238%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://github.com/youhyun010615">
     <img src="https://img.shields.io/badge/GitHub-youhyun010615-181717?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://youhyun-hi.tistory.com/">
+    <img src="https://img.shields.io/badge/Blog-youhyun--hi.tistory.com-FF5A4A?style=flat-square&logo=tistory&logoColor=white"/>
   </a>
 </p>
 
@@ -33,6 +36,7 @@
 - 🔧 **Spring Boot, Flask, PostgreSQL, MySQL, AWS** 기반 백엔드 개발에 관심이 많습니다.
 - 🤖 **Claude Code, OpenAI Codex, ChatGPT, Gemini**를 활용해 개발 생산성을 높이는 방법을 탐구하고 있습니다.
 - 🚀 현재 **SYNK**와 **돈독** 프로젝트를 진행하며 서비스 기획부터 구현, 배포까지 경험하고 있습니다.
+- ✍️ 학습 과정과 프로젝트 회고는 [Tistory Blog](https://youhyun-hi.tistory.com/)에 기록하고 있습니다.
 
 ---
 
@@ -121,104 +125,104 @@
 
 ---
 
-## 🚀 Projects
+## 📚 My Projects
 
-### SYNK | 실시간 동기화 미션 서비스
+<table>
+  <tr>
+    <td width="180" align="center">
+      <a href="https://github.com/youhyun010615/SYNK-back">
+        <img src="./assets/synk.png" width="150" alt="SYNK"/>
+      </a>
+    </td>
+    <td>
+      <h3>SYNK · 실시간 동기화 미션 서비스</h3>
+      <p><b>Role:</b> Back-end Developer</p>
+      <p><b>About Project:</b> 친구들이 같은 시간에 미션을 수행하고, 제출한 영상을 콜라주로 공유하는 앱 출시 목표 서비스</p>
+      <p><b>Stack:</b> Spring Boot, PostgreSQL, Supabase, WebSocket, AWS Lambda, AWS S3, Docker, FFmpeg</p>
+      <p>
+        <a href="https://github.com/youhyun010615/SYNK-back">github</a>
+        |
+        <a href="https://synk-front.vercel.app/">service</a>
+      </p>
+    </td>
+  </tr>
 
-> 우리는 지금, 같은 순간을 산다.
+  <tr>
+    <td width="180" align="center">
+      <a href="https://github.com/youhyun010615/dondocV2">
+        <img src="./assets/dondoc.png" width="150" alt="돈독"/>
+      </a>
+    </td>
+    <td>
+      <h3>돈독 · 게이미피케이션 소비 관리 서비스</h3>
+      <p><b>Role:</b> 기획 및 개발</p>
+      <p><b>About Project:</b> 소비 상태를 돼지·집·감독관 캐릭터 변화로 시각화해 절약 동기를 유도하는 가계부 서비스</p>
+      <p><b>Stack:</b> Vue 3, Pinia, Axios, JSON Server, Vercel, Railway, Spring Boot</p>
+      <p>
+        <a href="https://github.com/youhyun010615/dondocV2">github</a>
+        |
+        <a href="https://github.com/youhyun010615/dondocV2-backend">backend</a>
+        |
+        <a href="https://don-doc-mu.vercel.app/">service</a>
+      </p>
+    </td>
+  </tr>
 
-친구들이 같은 시간에 랜덤 미션을 수행하고, 짧은 영상을 제출하면 하나의 콜라주로 공유하는 실시간 동기화 서비스입니다.
+  <tr>
+    <td width="180" align="center">
+      <a href="https://github.com/youhyun010615/Adprob">
+        <img src="./assets/adprob.png" width="150" alt="AdProb"/>
+      </a>
+    </td>
+    <td>
+      <h3>AdProb · 머신러닝 기반 블로그 광고 탐지 시스템</h3>
+      <p><b>Role:</b> Team Leader / ML & Server</p>
+      <p><b>About Project:</b> 블로그 리뷰의 광고 여부를 텍스트·이미지 데이터 기반으로 분석하는 광고 탐지 시스템</p>
+      <p><b>Stack:</b> Python, Flask, JavaScript, CatBoost, LSTM AutoEncoder, OCR, GPT API, Pandas</p>
+      <p>
+        <a href="https://github.com/youhyun010615/Adprob">github</a>
+        |
+        <span>정확도 65% → 89%, 재현율 약 20%p 향상</span>
+      </p>
+    </td>
+  </tr>
 
-| 구분 | 내용 |
-|---|---|
-| Period | 2026.05 ~ 진행 중 |
-| Role | Back-end |
-| Team | 2인 팀 |
-| Stack | Spring Boot, PostgreSQL, Supabase, WebSocket, Spring Scheduler, AWS EC2, AWS Lambda, AWS S3, Docker, FFmpeg |
+  <tr>
+    <td width="180" align="center">
+      <a href="https://github.com/youhyun010615/AutoMailer">
+        <img src="./assets/automailer.png" width="150" alt="AutoMailer"/>
+      </a>
+    </td>
+    <td>
+      <h3>AutoMailer · 이메일 자동화 프로그램</h3>
+      <p><b>Role:</b> Python Automation Developer</p>
+      <p><b>About Project:</b> 행사 신청 메일 확인, 명단 정리, 합격·불합격 안내 발송을 자동화한 프로그램</p>
+      <p><b>Stack:</b> Python, IMAP, SMTP, OpenPyXL</p>
+      <p>
+        <a href="https://github.com/youhyun010615/AutoMailer">github</a>
+        |
+        <span>교내 Python 프로그램 개발 대회 최우수상</span>
+      </p>
+    </td>
+  </tr>
 
-**What I did**
-
-- Spring Boot 기반 REST API 설계 및 구현
-- WebSocket 기반 실시간 미션 이벤트 처리
-- Spring Scheduler 기반 미션 생성·활성화·마감 자동화
-- AWS Lambda, S3, FFmpeg 기반 영상 콜라주 비동기 처리
-- AWS EC2, Docker, GitHub Actions 기반 배포 환경 구축
-- 프론트엔드와 API 응답 구조 및 배포 환경 조율
-
-🔗 **Service**: https://synk-front.vercel.app/
-
----
-
-### 돈독 | 게이미피케이션 소비 관리 서비스
-
-> 내 소비의 주치의, 돼지 건강으로 보는 나의 재정 상태
-
-소비 상태를 캐릭터 변화로 보여주어 절약 동기를 유도하는 가계부 서비스입니다.
-
-| 구분 | 내용 |
-|---|---|
-| Period | 2026.04 ~ 진행 중 |
-| Role | 기획 및 개발 |
-| Activity | KB IT’s Your Life 7기 팀 프로젝트 |
-| Stack | Vue 3, Pinia, Axios, JSON Server, Vercel, Railway, Spring Boot |
-
-**What I did**
-
-- 회의 내용 구조화 및 서비스 방향 정리
-- Vue 3 기반 MVP 구현
-- 가계부 CRUD, 일별·달력·월간·요약 통계 화면 개발
-- 캐릭터 상태 변화 로직 설계
-- API 프록시 구조 설계
-- Spring Boot 백엔드 확장 진행
-
-🔗 **Service**: https://don-doc-mu.vercel.app/
-
----
-
-### AdProb | 머신러닝 기반 블로그 광고 탐지 시스템
-
-블로그 리뷰의 광고 여부를 판별하기 위해 텍스트와 이미지 데이터를 함께 분석하는 AI 기반 탐지 시스템입니다.
-
-| 구분 | 내용 |
-|---|---|
-| Period | 2025.03 ~ 2025.06 |
-| Role | Team Leader / ML & Server |
-| Stack | Python, Flask, JavaScript, CatBoost, LSTM AutoEncoder, OCR, GPT API, Pandas |
-
-**What I did**
-
-- Chrome Extension 기반 블로그 본문 및 이미지 데이터 수집
-- Flask 서버 기반 데이터 수신 및 전처리
-- CatBoost 기반 1차 광고 확률 예측
-- LSTM AutoEncoder 기반 애매한 데이터 재판별
-- 광고 여부와 근거 문장을 보여주는 대시보드 구현
-
-**Result**
-
-- 규칙 기반 탐지 대비 정확도 65% → 89% 향상
-- 재현율 약 20%p 향상
-
----
-
-### AutoMailer | 이메일 자동화 프로그램
-
-행사 신청 메일 확인, 명단 정리, 합격·불합격 안내 발송을 자동화한 Python 프로그램입니다.
-
-| 구분 | 내용 |
-|---|---|
-| Period | 2023.11 ~ 2023.12 |
-| Stack | Python, IMAP, SMTP, OpenPyXL |
-
-**What I did**
-
-- IMAP 기반 신청 메일 수신 및 분류
-- SMTP 기반 합격·불합격 메일 자동 발송
-- OpenPyXL 기반 선정자 명단 Excel 자동 생성
-
-**Result**
-
-- 교내 「융합과 SW 활용」 프로그램 개발 대회 최우수상
-- 수작업 대비 약 15배 이상 빠른 처리 경험
+  <tr>
+    <td width="180" align="center">
+      <a href="https://github.com/youhyun010615/sandofwebgame">
+        <img src="./assets/escape.png" width="150" alt="Escape Sands of Time"/>
+      </a>
+    </td>
+    <td>
+      <h3>Escape:Sands of Time · 웹 기반 탈출 게임</h3>
+      <p><b>Role:</b> Front-end Developer</p>
+      <p><b>About Project:</b> HTML, CSS, JavaScript를 활용해 제작한 웹 기반 탈출 게임 프로젝트</p>
+      <p><b>Stack:</b> HTML, CSS, JavaScript</p>
+      <p>
+        <a href="https://github.com/youhyun010615/sandofwebgame">github</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -272,11 +276,14 @@
 ## 📫 Contact
 
 <p>
-  <a href="mailto:cadry1@nate.com">
-    <img src="https://img.shields.io/badge/Email-cadry1%40nate.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  <a href="mailto:cadry238@gmail.com">
+    <img src="https://img.shields.io/badge/Email-cadry238%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://github.com/youhyun010615">
     <img src="https://img.shields.io/badge/GitHub-youhyun010615-181717?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://youhyun-hi.tistory.com/">
+    <img src="https://img.shields.io/badge/Blog-youhyun--hi.tistory.com-FF5A4A?style=flat-square&logo=tistory&logoColor=white"/>
   </a>
 </p>
 
